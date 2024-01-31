@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+.collection {
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  font-family: "Lexend Deca", sans-serif;
+}
+.card {
+  padding: 40px;
+  font-size: 15px;
+  color: white;
+}
+.card a {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 17px;
+  text-decoration: none;
+  font-size: 15px;
+}
+#card-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+#card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+#card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+p {
+  margin-bottom: 90px;
+}
+#card-sedan a {
+  color: hsl(31, 77%, 52%);
+}
+#card-suv a {
+  color: hsl(184, 100%, 22%);
+}
+#card-luxury a {
+  color: hsl(179, 100%, 13%);
+}
+/* Responsive design --mobile phone */
+/* two approaches--mobile first or desktop first */
+
+@media screen and (max-width: 700px) {
+  .collection {
+    display: block;
+  }
+  body {
+    background-color: bisque;
+  }
+  #desktop-element {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  body {
+    background-color: aqua;
+    /* as many selectors as necesary */
+  }
+}
